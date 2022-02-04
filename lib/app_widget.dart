@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:spotify/routes/route_generator_service.dart';
+
+import 'core/core..dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({Key? key}) : super(key: key);
@@ -8,11 +9,12 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Nubank Clone',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/home',
+      initialRoute: '/splash_page',
       onGenerateRoute: RouteGenerator.generateRoute,
     );
   }
