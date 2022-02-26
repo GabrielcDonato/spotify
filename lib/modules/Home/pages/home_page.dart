@@ -1,7 +1,6 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
-import 'package:spotify/core/shared/app_images.dart';
+import 'package:spotify/core/core.dart';
+
 import 'package:spotify/modules/Home/widgets/widgets.dart';
 
 class HomePage extends StatelessWidget {
@@ -53,12 +52,12 @@ class HomePage extends StatelessWidget {
                             ),
                             IconButton(
                               onPressed: () {},
-                              icon: Icon(Icons.access_time_rounded),
+                              icon: const Icon(Icons.access_time_rounded),
                               color: Colors.white,
                             ),
                             IconButton(
                               onPressed: () {},
-                              icon: Icon(Icons.settings_outlined),
+                              icon: const Icon(Icons.settings_outlined),
                               color: Colors.white,
                             ),
                           ],
@@ -124,11 +123,11 @@ class HomePage extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
-              CustomText(text: "Your top mixes"),
-              SizedBox(
+              const CustomText(text: "Your top mixes"),
+              const SizedBox(
                 height: 20,
               ),
               SizedBox(
@@ -145,14 +144,14 @@ class HomePage extends StatelessWidget {
                   },
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               // MainText(),
-              CustomText(
-                text: "rola",
+              const CustomText(
+                text: "teste",
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               SizedBox(
@@ -169,14 +168,14 @@ class HomePage extends StatelessWidget {
                   },
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               // MainText(),
-              CustomText(
+              const CustomText(
                 text: "Jump back in",
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               SizedBox(
@@ -213,8 +212,8 @@ Widget flex(context) => Flexible(
       ),
     );
 
-Widget mainText() => Padding(
-      padding: const EdgeInsets.all(8.0),
+Widget mainText() => const Padding(
+      padding: EdgeInsets.all(8.0),
       child: Text(
         "Seus Programas",
         style: TextStyle(
