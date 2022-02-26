@@ -10,10 +10,10 @@ class RouteGenerator {
 
       // Splash:
       case '/splash_page':
-        return MaterialPageRoute(builder: (context) => SplashPage());
+        return MaterialPageRoute(builder: (context) => const SplashPage());
       // Home:
       case '/home_page':
-        return MaterialPageRoute(builder: (context) => HomePage());
+        return MaterialPageRoute(builder: (context) => const HomePage());
     }
   }
 }
