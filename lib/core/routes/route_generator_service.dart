@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import '../../modules/Home/pages/home_page.dart';
-import '../../modules/splash/pages/splash_page.dart';
+import 'package:spotify/modules/Home/home.dart';
+import 'package:spotify/modules/splash/splash.dart';
 
 class RouteGenerator {
   static Route<dynamic>? generateRoute(RouteSettings settings) {
