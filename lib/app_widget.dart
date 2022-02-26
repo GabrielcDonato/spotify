@@ -7,13 +7,10 @@ class AppWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Nubank Clone',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      initialRoute: '/splash_page',
+      title: 'Spotify',
+      initialRoute: '/home_page',
       onGenerateRoute: RouteGenerator.generateRoute,
     );
   }
