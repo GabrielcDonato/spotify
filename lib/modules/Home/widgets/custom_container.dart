@@ -26,14 +26,14 @@ class CustomContainer extends StatelessWidget {
         child: Column(
           children: [
             Image.asset(image),
-            Spacer(),
+            const Spacer(),
             Text(
               title,
-              style: TextStyle(color: Colors.white),
+              style: const TextStyle(color: Colors.white),
             ),
             Text(
               subTitle,
-              style: TextStyle(color: Colors.white70),
+              style: const TextStyle(color: Colors.white70),
             ),
           ],
         ),
