@@ -13,9 +13,9 @@ class SplashPage extends StatelessWidget {
         child: Container(
           height: MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
-          child: Image.asset(
-            AppImages.teste,
-          ),
+          // child: Image.asset(
+          //   AppImages.,
+          // ),
         ),
       ),
     );
